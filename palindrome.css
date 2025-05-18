@@ -5,13 +5,13 @@
 }
 
 body{
-    max-height: 100vh;
+    max-height: 150vh;
     max-width: 100vw;
     background-image:  url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
     font-family: 'Montserrat', sans-serif;
     text-shadow: 2px 2px 4px #000000;
     color: white;
@@ -90,7 +90,25 @@ body{
 
 @media (max-width:400px){
     #pal{
-    font-size: 35px;
+    font-size: 26px;
+}
+
+    #intro{
+    font-size: 18px;
+    }
+
+    #text-input{
+        width: 250px;
+    }
+
+    #result, #randomFacts{
+        width: 250px;
+    }
+}
+
+@media (max-width: 900px){
+    #pal{
+    font-size: 40px;
 }
 
     #intro{
@@ -106,31 +124,13 @@ body{
     }
 }
 
-@media (max-width: 900px){
+@media (min-width:1000px){
     #pal{
-    font-size: 60px;
+    font-size: 50px;
 }
 
     #intro{
     font-size: 40px;
-    }
-
-    #text-input{
-        width: 350px;
-    }
-
-    #result, #randomFacts{
-        width: 350px;
-    }
-}
-
-@media (min-width:1000px){
-    #pal{
-    font-size: 70px;
-}
-
-    #intro{
-    font-size: 50px;
     }
 
     #text-input{
