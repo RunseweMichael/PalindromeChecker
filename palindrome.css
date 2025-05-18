@@ -41,7 +41,7 @@ body{
 #text-input{
     padding: 30px 20px;
     height: 50px;
-    width: 400px;
+    width: 300px;
     border: 1px solid white;
     outline: none;
     border-radius: 20px;
@@ -68,7 +68,7 @@ body{
 
 #result, #randomFacts{
     min-height: 100px;
-    width: 400px;
+    width: 300px;
     border-radius: 20px;
     text-align: center;
     color: white;
@@ -116,11 +116,11 @@ body{
     }
 
     #text-input{
-        width: 400px;
+        width: 350px;
     }
 
     #result, #randomFacts{
-        width: 400px;
+        width: 350px;
     }
 }
 
